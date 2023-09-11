@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(380deg);
+  }
+}
+
+
+
+
+
+.button {
+  font-size: 20px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+
+.container{
+  position : relative;
+  height: 100vh; /* Optional: 뷰포트 높이를 기준으로 높이 설정 */
+  width: 100%; /* Optional: 부모 요소의 너비를 100%로 설정 */
+}
+
+
+.palette-component{
+  position: absolute;
+  float : left;
+  width : 20%;
+  height : 80%;
+  border: "solid 1px black";
+}
+
+
+.palette-component-small{
+  position: absolute;
+  float : left;
+  width : 20%;
+  height : 80%;
+  border: "solid 1px black";
+}
+
+.diagram-component{
+  position: absolute;
+  float : left;
+  width : 70%;
+  height : 80%;
+  border: solid 1px black;
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  background-size:20px 20px;
+
+   /* create a grid pattern using linear gradients */
+   background-image:
+     linear-gradient(to right, rgb(231, 231, 231) .5px, transparent .5px),
+     linear-gradient(to bottom, rgb(231, 231, 231)  .5px, transparent .5px);
+
+}
+
+.diagram-component-small{
+  position: absolute;
+  float : left;
+  width : 70%;
+  height : 80%;
+  border: solid 1px black;
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  background-size:20px 20px;
+
+   /* create a grid pattern using linear gradients */
+   background-image:
+     linear-gradient(to right, rgb(231, 231, 231) .5px, transparent .5px),
+     linear-gradient(to bottom, rgb(231, 231, 231)  .5px, transparent .5px);
+
+}
