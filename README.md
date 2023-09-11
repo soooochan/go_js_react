@@ -8,4 +8,4 @@ go_js_react
 
 
 ### go_js with toggle 
-![gojs_react3](https://github.com/soooochan/go_js_react/assets/102716244/90d3c837-3c02-4ca4-aaa6-cf8e38824256)
+![select_img](https://github.com/soooochan/go_js_react/assets/102716244/759cd8f2-1a0f-442b-a239-5d0127e10437)
